@@ -1,0 +1,151 @@
+Tamam, o zaman seni “hiç kod bilmeyen” biri gibi düşüneceğim ve her tıklamayı tek tek yazacağım.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+
+Aşağıdaki adımları _sırayla_ uygula; takıldığın adımı yaz, oradan devam edelim.
+
+---
+
+## 1. Hazırlık: GitHub hesabın olsun
+
+1. Tarayıcıdan `https://github.com` adresine gir.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+2. Sağ üstte **Sign up** (veya benzeri) yazan yere tıkla.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+3. E‑posta, kullanıcı adı ve şifre ile ücretsiz hesap oluştur.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+4. Kullanıcı adını bir yere not et; blog adresin `https://KULLANICIADIN.github.io` olacak (örnek: `cihan123.github.io`).[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+
+> Eğer zaten hesabın varsa: Bu adımı atla, giriş yapmış olduğundan emin ol.
+
+---
+
+## 2. Tema sayfasını kendi hesabına kopyala (Fork)
+
+1. Şu an açık olan sayfa: `https://github.com/daattali/beautiful-jekyll`.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+2. GitHub’da **giriş yapmış** ol.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+3. Sayfanın sağ üst tarafında “Fork” diye bir buton göreceksin. Ona tıkla.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+4. Küçük bir pencere açılacak, içinde kendi kullanıcı adını göreceksin. Orada yine **Create fork** butonuna tıkla.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+5. 2–3 saniye sonra, aynı proje senin hesabının altında açılacak (üstte sol tarafta `KULLANICIADIN/beautiful-jekyll` gibi yazmalı).[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+
+Buraya kadar her şey tamamsa “fork bitti” diye yaz, devamını ona göre anlatayım.
+
+---
+
+## 3. Proje adını blog adresine çevir
+
+1. Üstte repo adının yanındaki menüde **Settings** yazan sekmeye tıkla.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+2. Settings sayfası açılınca, en üstte **Repository name** diye bir alan göreceksin.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+3. Orada şu an `beautiful-jekyll` yazıyordur. Onu sil ve tam şu formatta yaz:
+    
+    `KULLANICIADIN.github.io`  
+    Örnek: Kullanıcı adın `cihan123` ise: `cihan123.github.io` yaz.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+4. Aşağıda değişikliği onaylayan yeşil butona (Rename benzeri) tıkla.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+
+Bu adımı doğru yaparsan sitenin adresi otomatik olarak `https://KULLANICIADIN.github.io` olur.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+
+---
+
+## 4. Ana ayar dosyasını düzenle (_config.yml)
+
+1. Artık repo sayfasına geri dön: Dosya listesini görüyorsun (README.md, _config.yml vs.).[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+2. Listede `_config.yml` dosyasını bul ve adına tıkla.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+3. Dosya açılınca sağ üstteki **kalem (Edit this file)** ikonuna tıkla.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+4. Şimdi yazı alanı düzenlenebilir olacak. İçeride şuna benzer satırlar göreceksin: `title:`, `author:`, `email:`, `description:` vb.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+5. Bu alanları Türkçe ve kendine göre düzenle; örneğin:[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+    - `title: "Cihan'ın Blogu"`
+        
+    - `author: "Cihan"`
+        
+    - `email: "seninmailin@example.com"`
+        
+6. Aşağı doğru in; sosyal medya linkleri varsa istersen sil veya kendi hesaplarınla değiştir.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+7. Sayfanın en altına in. “Commit changes” bölümünde:
+    
+    - Üst kutuya küçük bir yazı yazabilirsin: `config duzenleme` gibi.
+        
+    - Yeşil **Commit changes** butonuna tıkla.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+        
+
+Bu kaydı yaptıktan sonra GitHub arka planda siteni oluşturmaya başlar.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+
+---
+
+## 5. Blogunu açıp kontrol et
+
+1. 1–2 dakika bekle.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+2. Tarayıcıda yeni sekme aç ve adres çubuğuna:
+    
+    `https://KULLANICIADIN.github.io` yaz, Enter’a bas.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+3. Eğer her şeyi doğru yaptıysan demo yazıları olan hazır bir blog göreceksin.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+
+Eğer “404” gibi bir hata görürsen veya açılmazsa bana tam hatayı yaz, birlikte bakarız.
+
+---
+
+## 6. Kendi yazını eklemek (en basit yol)
+
+Kod bilmediğin için en pratik yolu anlatacağım:
+
+1. GitHub’da repo sayfana dön (`KULLANICIADIN.github.io` projesi).[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+2. Dosya listesinde `_posts` klasörüne tıkla.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+3. İçeride örnek dosyalar göreceksin. Bir tanesine tıkla (mesela içinde “sample” geçen).[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+4. Sağ üstte **kalem ikonuna** (edit) tıkla.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+5. Dosyanın en üst kısmında `---` ile başlayan bölüm var (tarih, başlık vb.). Oraya çok dokunma, sadece `title:` yazan yere Türkçe bir başlık yazabilirsin.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+6. Bu üstteki `---` bölümü bitince aşağıda normal metin başlıyor. Oradaki yazıları sil ve kendi yazını yaz:
+    
+    - Örneğin: “Merhaba, bu benim ilk blog yazım, kod bilmeden bu siteyi kurdum.” gibi.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+        
+7. En alta in, yine yeşil **Commit changes** butonuna tıkla.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+8. 1–2 dakika sonra siteni yenile (F5 ile) ve yazının göründüğünü kontrol et.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+
+---
+
+## 7. Bundan sonra ne yapacaksın?
+
+- Yeni yazı eklemek için: `_posts` klasöründe mevcut bir dosyayı kopyalayarak (New file deyip ismini `2026-02-03-ilk-yazim.md` gibi vererek) aynı mantıkla devam edebilirsin.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+- Sayfa (Hakkımda vb.) eklemek için: Ana dizinde “aboutme.md” benzeri dosyaya bak, yapısını kopyala, yeni dosya oluştur.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
+    
+
+---
+
+Şimdi senden şunu rica ediyorum:
+
+1. GitHub hesabına gir.
+    
+2. Fork + isim değiştirme adımlarını yap.
+    
+
+Sonra bana şu iki bilgiyi yaz:
+
+- GitHub kullanıcı adın
+    
+- “Adım 2 ve 3 bitti” gibi ne noktada olduğun
+    
+
+Buna göre sonraki adımları daha da **detaylı** (örneğin “şu buton sağda, gri renkli, üzerinde şu yazıyor” diyerek) anlatabilirim.[[github](https://github.com/daattali/beautiful-jekyll#readme)]​
